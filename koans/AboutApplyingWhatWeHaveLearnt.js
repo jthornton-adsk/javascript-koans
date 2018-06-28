@@ -103,14 +103,11 @@ describe("About Applying What We Have Learnt", function() {
                     .value();
      ingredientCount[x] = count;
      });
-
-
-                              
-
+                            
 
     /* chain() together map(), flatten() and reduce() */
 
-    expect(ingredientCount['mushrooms']).toBe(ingredientCount);
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   /*********************************************************************************/
